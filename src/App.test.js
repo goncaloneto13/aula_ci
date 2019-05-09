@@ -7,3 +7,8 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+// it('test description', () => {
+//   expect(sum(1, 2)).toEqual(3);
+//   expect(sum(2, 2)).toEqual(4);
+// });
